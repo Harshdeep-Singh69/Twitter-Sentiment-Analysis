@@ -10,12 +10,12 @@ from tkinter import*
 
 
 
-api_key="*******Use Your own key*******"
-api_secret_key="*******Use Your own key*******"
+api_key="eKfzeYoZWFUQ7g4ogx6KeZqRs"
+api_secret_key="suBMejO4npo3V5DjEGe3CiO3hYByPY37h4YVm7YqxqGpIMbOXn"
 
 
-access_token ="*******Use Your own token*******"
-access_token_secret="*******Use Your own token*******"
+access_token ="1140296275755036672-zOAtEJ4uUD3jU7Xw0Lhugi8smm656m"
+access_token_secret="xhRYHDe9JjaJO9X2el2PW2caBX9SL1YisciOdvkZNplJY"
 
 
 
@@ -31,11 +31,9 @@ root = Tk()
 root.title("Sentiment Analysis") 
 root.geometry('1000x800')
 root.configure(bg="#e8f7e8")
-
 # taking image from the directory and storing the source in a variable
-icon =PhotoImage(file = r"****Enter the location of the picture****")
-icon1=PhotoImage(file=r"****Enter the location of the picture****") #use .png images
-
+icon =PhotoImage(file = r"E:\Harshdeep Singh\Python\Twitter Sentiment analysis\Twitter background.png")
+icon1=PhotoImage(file=r"E:\Harshdeep Singh\Python\Twitter Sentiment analysis\Sentiment analysis img.png")
 # displaying the picture using a 'Label' by passing the 'picture' variriable to 'image' parameter
 background =Label(root, image = icon,bg="#e8f7e8")
 background.pack()
